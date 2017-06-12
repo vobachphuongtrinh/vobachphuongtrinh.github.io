@@ -1752,7 +1752,7 @@ a:focus {
 .main-carousel .slide {
   color: #ffffff;
   text-align: center;
-  background-position: right center;
+  /*background-position: right center;*/
   display: flex;
   width: 100%;
   align-items: center;
