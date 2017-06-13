@@ -127,6 +127,8 @@
 <!-- Javascript insert the Youtube background
 ================================================== -->
 <script type="text/javascript">
+if (ismobile == false)
+{
     document.write('<div class="video-background">');
     document.write('<div class="video-foreground">');
     document.write('<iframe src="https://www.youtube.com/embed/yNKSF8J5DE0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>');
@@ -135,6 +137,7 @@
 
     document.write('<div id="vidtop-content">');
     document.write('<div class="vid-info">');
+}
 
 </script>
 
@@ -720,7 +723,7 @@
         <!-- /Gallery -->
 
         <!-- Gift List -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     if (ismobile == true)
     {
         document.write('<div class="section section-gift-list" id="video">');
@@ -735,7 +738,7 @@
             document.write("</div>");
         document.write('</div>');
     }
-    </script> -->
+    </script>
     </div>
 </div>
 <!-- /Main Content    
